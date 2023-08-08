@@ -1,0 +1,53 @@
+.news {
+  border: 1px solid #000;
+  border-width: 5px white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 5px;
+  display: inline-block;
+  width: 150%;
+}
+
+.news_title{
+  color:red;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.news_desc {
+  padding: 20px;
+  max-width: 500px;
+  padding-top: 0px;
+}
+
+.news_img {
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+}
+
+.news_content {
+  padding: 20px;
+  max-width: 500px;
+  padding-top: 0px;
+}
+
+.searchBar {
+  margin: 20px;
+  margin-left: 1000px;
+  margin-right: auto;
+  
+} 
+
+.search-btn{
+  background: url("http://iconizer.net/files/16x16_Free_Toolbar_Icons/orig/search_zoom.png") right no-repeat ;
+  border:1px solid #bfbfbf;
+  height:20px;
+  padding:0px 20px 0px 10px;
+}
+
+.news_app_title {
+  padding: 0px 50px;
+}

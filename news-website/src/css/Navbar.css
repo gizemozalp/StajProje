@@ -1,0 +1,34 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(42, 130, 165, 0.74);
+    display: flex;
+    flex-direction: row;
+    border-bottom: white;
+}
+
+.navbar .main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.navbar .mainLink {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navbar .searchBar {
+    margin: 20px;
+    margin-left: 1000px;
+    margin-right: auto;
+}
+.navbar .search-btn {
+    margin: 20px;
+    margin-left: 1000px;
+    margin-right: auto;
+    font-size: 10px;
+}
