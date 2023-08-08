@@ -40,10 +40,8 @@ const NewsList: React.FC = () => {
       <div className='news' key={newsItem.id}>
         <h2 className='news_title'>{newsItem.title}</h2>
         <p className='news_desc'>{newsItem.description}</p>
-        
         <img className='news_img' src={newsItem.urlToImage} alt="Haber Resmi" />
         <Link to={newsItem.url}>{newsItem.url}</Link>
-        
         </div>
       ))}
     </div>

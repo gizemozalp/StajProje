@@ -11,7 +11,6 @@ interface News {
 const NewsSearch: React.FC = () => {
   const {id} = useParams<{ id: string }>();
   const [news, setNews] = useState<News | null>(null);
-  console.log(id);
 
   useEffect(() => {
     axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=f5d30a52f8914ba289e5f375719e9ff3`)
@@ -35,7 +34,6 @@ const NewsSearch: React.FC = () => {
         } else {
           // Eğer haber bulunamazsa, haber yok veya hatalı bir id durumu ele alınabilir
           console.error(`Haber ID'si '${id}' ile eşleşen haber bulunamadı.`);
-          
         }
       })
       .catch(error => {
