@@ -22,29 +22,3 @@ const App: React.FC = () => {
 }
 
 export default App;
-
-
-
-
-// import React, { useState } from 'react';
-// import SearchBar from './SearchBar';
-// import NewsList from './NewsList';
-
-// const App = () => {
-//   const [searchQuery, setSearchQuery] = useState('');
-
-//   const handleSearch = (query: string) => {
-//     setSearchQuery(query);
-//   };
-
-//   return (
-//     <div>
-//       <h1>Haber Uygulaması</h1>
-//       <SearchBar onSearch={handleSearch} />
-//       <NewsList searchQuery={searchQuery} />
-//       {/* Diğer bileşenler ve içerik */}
-//     </div>
-//   );
-// };
-
-// export default App;
